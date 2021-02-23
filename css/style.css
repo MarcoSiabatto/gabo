@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #d2d5e9;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.header {
+  background-color: rgb(211, 203, 203);
+  height: 80px;
+}
+.logo {
+  float: left;
+  padding: 10px;
+}
+.menu {
+  float: right;
+  margin: 24px;
+}
+.menu a {
+  /* only encases the a under the class menu, other a will be subject to other styling if applicable */
+  color: black;
+  text-decoration: none; /* takes off properties such as hyperlinks */
+  padding: 15px;
+  font-size: 20px;
+}
+.banner {
+  background-image: url(../img/gabo.jpg);
+  height: 550px;
+  background-repeat: no-repeat;
+  /* background-size: cover; utiliza toda la imagen para ayudar con responsive design*/
+}
+.banner h1 {
+  text-align: right;
+  font-size: 80px;
+  padding: 150px 50px;
+  text-transform: uppercase;
+}
+.catTable {
+  width: auto;
+  margin: auto;
+}
+.cat {
+  padding: 50px;
+}
+.catButton:hover {
+  opacity: 0.6;
+}
+.catButton {
+  width: 80px;
+  height: 80px;
+  background-color: #f38902;
+  border-radius: 50px;
+  font-size: 12px;
+  margin: 5px;
+  padding: 10px;
+  line-height: 70px;
+  text-align: center;
+  float: left;
+}
+.catButton a {
+  text-decoration: none;
+  color: black;
+}
+.bio h2 {
+  text-align: center;
+  padding: 15px;
+}
+.bio {
+  background-color: black;
+  color: white;
+  padding: 20px 100px 70px 100px;
+  text-align: justify;
+}
+.awards {
+  margin: 0;
+  text-align: center;
+  padding: 10;
+}
+.awards h2 {
+  padding: 15px 0 0 0;
+}
+.awards h3 {
+  background-color: #f7840a;
+  color: white;
+  border: 2px solid #221988;
+  border-radius: 6px;
+  padding: 15px 30px 10px 30px;
+  margin: 10px 20px;
+}
+.awards td {
+  text-align: left;
+  font-size: 18px;
+  word-spacing: 1mm;
+}
+.awards table {
+  padding: 10px 100px 30px 100px;
+}
+.footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 50px 100px 50px 100px;
+}
+/* Solitude Page Styling Start */
+#solitude #body {
+  background-color: #d2d5e9;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.solitInfo {
+  background-image: url(../img/OYOS.jpg);
+  background-repeat: no-repeat;
+  width: auto;
+  height: 400px;
+}
+.solitInfo h1 {
+  text-align: right;
+  font-size: 40px;
+  padding: 20px;
+}
+.solitInfo p {
+  text-align: right;
+  text-align: justify;
+  padding: 10px 20px 0 300px;
+}
+.returnBar {
+  font-size: 50px;
+}
+#solitude table {
+  margin: auto;
+}
+.rtrnBarButton:hover {
+  opacity: 0.5;
+}
+.returnBar div {
+  width: 80px;
+  height: 80px;
+  background-color: #f38902;
+  border-radius: 50px;
+  font-size: 16px;
+  padding: 10px;
+  line-height: 70px;
+  text-align: center;
+}
+.returnBar table {
+  margin: auto;
+}
+.returnBar a {
+  text-decoration: none;
+  color: black;
+}
+.returnBar td {
+  padding: 50px;
+}
+/* Colonel styling start */
+#colo #body {
+  background-color: #d2d5e9;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.coloInfo {
+  background-image: url(../img/colonel.jpg);
+  background-repeat: no-repeat;
+  width: auto;
+  height: 500px;
+}
+.coloInfo h1 {
+  text-align: right;
+  font-size: 40px;
+  padding: 20px;
+}
+.coloInfo p {
+  text-align: right;
+  text-align: justify;
+  padding: 10px 20px 0 400px;
+}
